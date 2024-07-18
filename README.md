@@ -20,7 +20,7 @@ Scans for Bluetooth LE devices using the simplepyble library.
 Stores the found devices' information in a dictionary.
 Sends the information over a given MQTT broker using the paho-mqtt library.
 
-###Configuration:
+### Configuration:
 broker_address: The address of the MQTT broker.
 port: The port number of the MQTT broker.
 main_topic: The MQTT topic to publish the information.
@@ -38,13 +38,13 @@ topic: The MQTT topic to subscribe to.
 ## Usage:
 Run the listening.py script to start listening to the MQTT topic and store the received information. It will terminate itself when the data sending is complete.
 
-python listening.py
+"python listening.py"
 
 The listening.py script will terminate automatically when the string "end!" is received.
 
 Run the scan.py script to start scanning for Bluetooth LE devices and send the information to the MQTT broker.
 
-python scan.py
+"python scan.py"
 
 ## License:
 This project is licensed under the MIT License. See the LICENSE file for details.
