@@ -1,5 +1,4 @@
 import simplepyble
-from dataclasses import dataclass
 import paho.mqtt.client as mqtt
 import time
 
