@@ -22,7 +22,9 @@ Sends the information over a given MQTT broker using the paho-mqtt library.
 
 ### Configuration:
 broker_address: The address of the MQTT broker.
+
 port: The port number of the MQTT broker.
+
 main_topic: The MQTT topic to publish the information.
 
 "listening.py"
@@ -32,7 +34,9 @@ Terminates when the string "end!" is seen at the topic.
 
 ### Configuration:
 broker_address: The address of the MQTT broker.
+
 port: The port number of the MQTT broker.
+
 topic: The MQTT topic to subscribe to.
 
 ## Usage:
